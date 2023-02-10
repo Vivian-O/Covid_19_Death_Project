@@ -65,7 +65,6 @@ Group by location
 Order by TotalDeathCount desc
 
 
-
 --To break down by Continent
 Select continent, MAX(cast(total_deaths as int)) as TotalDeathCount
 From Covid19DeathProject.dbo.Covid_Deaths
